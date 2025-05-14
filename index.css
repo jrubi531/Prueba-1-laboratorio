@@ -1,0 +1,21 @@
+.texto1{
+width: 214;
+height: 14;
+top: 14px;
+left: 120px;
+}
+img.localizacion{
+    width: 18;
+    height: 18;    
+}
+.localizacion{
+ width: 112;
+height: 18;
+font-family: HK Grotesk;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: right;
+
+}
