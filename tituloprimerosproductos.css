@@ -1,0 +1,28 @@
+.texto6{
+font-family: HK Grotesk;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+}
+
+.fila-texto {
+    display: flex;
+    align-items: center; /* alinea verticalmente */
+    justify-content: space-between; /* espacio entre texto y botones */
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .iconos-derecha .bloque {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icono {
+    width: 24px; 
+    height: auto;
+  }
+  
