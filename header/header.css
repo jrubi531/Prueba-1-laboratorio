@@ -1,7 +1,29 @@
-.busquedad{
-    display: flex;
-    gap: 45px;
-    align-items: center;
-    justify-content: space-around;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #EDEDED; /* Línea al final del header */
 }
 
+header > div {
+  display: flex;
+  align-items: center;
+}
+
+.busqueda {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;   /* Espacio interno */
+  gap: 10px;           /* Espacio entre icono y texto */
+  background: #F3F9FB;
+}
+
+.texto2 {
+  font-family: HK Grotesk;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: right;
+}

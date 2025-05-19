@@ -1,0 +1,86 @@
+.section2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .imagen-central {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    z-index: 1;
+  }
+  
+  .boton-izquierda,
+  .boton-derecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /*sirve para mover, escalar, rotar o inclinar elementos en CSS, sin afectar su posición original en el flujo del documento.*/
+    z-index: 2;
+    width: 100px; 
+    cursor: pointer;
+  }
+  
+  .boton-izquierda {
+    left: 20px;
+  }
+  
+  .boton-derecha {
+    right: 20px;
+  }
+
+  .texto3 {
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 24px;   /* más pequeño */
+    line-height: 30px;
+    letter-spacing: 0%;
+    position: absolute;
+    top: 20px;
+    left: 30px;       /* un poco más a la derecha */
+    color: white;
+    z-index: 3;
+  }
+  
+  .texto4 {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 50px;   /* más pequeño */
+    line-height: 63px;
+    letter-spacing: 0%;
+    position: absolute;
+    top: 60px;
+    left: 30px;       /* un poco más a la derecha */
+    color: white;
+    z-index: 3;
+  }
+  
+  .texto5 {
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 24px;   /* más pequeño */
+    line-height: 30px;
+    letter-spacing: 0%;
+    position: absolute;
+    top: 130px;
+    left: 30px;       /* un poco más a la derecha */
+    color: white;
+    z-index: 3;
+  }
+
+ /* Mantener el contenedor centrado */
+.textos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    color: white;
+    z-index: 3;
+  }
+

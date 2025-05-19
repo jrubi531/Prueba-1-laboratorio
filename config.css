@@ -13,31 +13,3 @@ body{
 width: 1440;
 height: 42;
 }
-.barra-superior {
-    display: flex;
-    justify-content: space-between; /* separa izquierda y derecha */
-    align-items: center;
-    padding: 10px 20px;
-    background-color:#F5F5F5; /* opcional */
-}
-
-.iconos-derecha {
-    display: flex;
-    gap: 30px; /* espacio entre bloques */
-    align-items: center;
-}
-
-.bloque {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.icono {
-    width: 20px;
-    height: auto;
-}
-
-
-
-
