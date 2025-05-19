@@ -36,12 +36,12 @@
   .texto3 {
     font-family: HK Grotesk;
     font-weight: 600;
-    font-size: 24px;   /* más pequeño */
+    font-size: 24px;   
     line-height: 30px;
     letter-spacing: 0%;
     position: absolute;
     top: 20px;
-    left: 30px;       /* un poco más a la derecha */
+    left: 30px;      
     color: white;
     z-index: 3;
   }
@@ -49,12 +49,12 @@
   .texto4 {
     font-family: HK Grotesk;
     font-weight: 700;
-    font-size: 50px;   /* más pequeño */
+    font-size: 50px;   
     line-height: 63px;
     letter-spacing: 0%;
     position: absolute;
     top: 60px;
-    left: 30px;       /* un poco más a la derecha */
+    left: 30px;      
     color: white;
     z-index: 3;
   }
@@ -62,12 +62,12 @@
   .texto5 {
     font-family: HK Grotesk;
     font-weight: 600;
-    font-size: 24px;   /* más pequeño */
+    font-size: 24px;   
     line-height: 30px;
     letter-spacing: 0%;
     position: absolute;
     top: 130px;
-    left: 30px;       /* un poco más a la derecha */
+    left: 30px;       
     color: white;
     z-index: 3;
   }
@@ -75,8 +75,8 @@
  /* Mantener el contenedor centrado */
 .textos {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 55%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 90%;

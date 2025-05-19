@@ -26,3 +26,27 @@ letter-spacing: 0%;
     height: auto;
   }
   
+ /* otro texto*/
+ .fila-texto {
+  display: flex;
+  justify-content: space-between; /* uno a la izquierda, otro a la derecha */
+  align-items: center;            /* alineados verticalmente al centro */
+  padding: 10px;                  /* opcional: para separar un poco */
+}
+
+.texto7 {
+  margin: 0;
+  font-size: 18px; /* o el tamaño que desees */
+  font-weight: bold;
+}
+
+.iconos-derecha .bloque {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* espacio entre el texto y el icono */
+}
+
+.icono {
+  width: 16px; /* ajusta el tamaño del icono si es necesario */
+  height: auto;
+}

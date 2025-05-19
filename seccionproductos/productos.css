@@ -1,0 +1,70 @@
+.productos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .producto {
+    width: 160px; /* Más pequeño */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .descuento {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #0099ff;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 8px;
+  }
+  
+  .nombre {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 6px 0 4px;
+  }
+  
+  .precio {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .actual {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .anterior {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 11px;
+  }
+  
+  .save {
+    color: #249B3E;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  
